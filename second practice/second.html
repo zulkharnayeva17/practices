@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Second practice</title>
+    <script src="second.js"></script>
+</head>
+<body>
+    <div>
+        <input type="text" id="names" readonly>
+        <button onclick="names()">Show name</button>
+        <input type="text" id="Group" readonly>
+        <button onclick="names()">Show Group</button>
+        <h5>Today is:</h5>
+        <input type="text" id="data">
+        <button onclick="date()">Show the time</button>
+
+        <h4>If we imagine that i will graduate from AITU in (2024.08.05) in 00:00 </h4>
+        <button style="display: block" id="vis" onclick="calculate()">Calculate how many time i have for learning in university</button>
+        <input type="text" id="time" style="display: none;width: 500px">
+
+        <br>
+        <br>
+        <br>
+        <div style="display: block">
+            <input type="text" id="first" placeholder="first number">
+            <input type="text" id="second" placeholder="second number">
+            <div style="display: block">
+                  <button onclick="Multiply()">Multiply</button>
+                  <button onclick="Divide()">Divide</button>
+            </div>
+            <input type="text" id="answer">
+        </div>
+    </div>
+</body>
+</html>
